@@ -1,0 +1,17 @@
+﻿Console.WriteLine("Введите значение x1 точки А:");
+int x1 =int.Parse(Console.ReadLine());
+Console.WriteLine("Введите значение y1 точки А:");
+int y1 =int.Parse(Console.ReadLine());
+Console.WriteLine("Введите значение z1 точки А:");
+int z1 =int.Parse(Console.ReadLine());
+Console.WriteLine("Введите значение x2 точки B:");
+int x2 =int.Parse(Console.ReadLine());
+Console.WriteLine("Введите значение y2 точки А:");
+int y2 =int.Parse(Console.ReadLine());
+Console.WriteLine("Введите значение z2 точки А:");
+int z2 =int.Parse(Console.ReadLine());
+double a1 = Math.Pow(x1-x2, 2);
+double a2 = Math.Pow(y1-y2, 2);
+double a3 = Math.Pow(z1-z2, 2);
+double a = Math.Sqrt(a1 + a2 + a3);
+Console.WriteLine("Расстояние между точками А и В в 3D пространстве ->" + a);
